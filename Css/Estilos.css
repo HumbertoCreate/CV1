@@ -1,0 +1,46 @@
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 16px;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contTitulo
+{
+    width: 75%;
+    background-color: darkgreen;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.imgFoto
+{
+    border: 1px solid #000;
+    border-radius: 1rem;
+}
+
+.txtNombre
+{
+    color: cornsilk;
+}
